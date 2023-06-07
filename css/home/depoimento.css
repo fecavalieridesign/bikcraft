@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-p1);
+  overflow: hidden;
 }
 
 .depoimento img {
@@ -17,12 +18,12 @@
 }
 
 .depoimento-conteudo p {
-  font-family: "Merriweather", serif;
   max-width: 32ch;
+  font-family: "Merriweather", serif;
   font-style: italic;
   font-weight: 900;
-  position: relative;
   margin-bottom: 32px;
+  position: relative;
 }
 
 .depoimento p::before,
@@ -52,6 +53,6 @@
   }
   .depoimento-conteudo {
     padding: 40px 20px;
-    justify-self: center;
+    margin: auto;
   }
 }
